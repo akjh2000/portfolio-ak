@@ -1,0 +1,970 @@
+*{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu{
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: -10px;
+    margin-left: -15px;
+}
+
+.search{
+    display: flex;
+    margin: 0 auto;
+    justify-content: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.menu-indhold {
+    padding: 40px 0;
+    margin-top: -5px;
+    color: rgb(34, 230, 164);
+    font-size: 16px;
+}
+
+.dropdown-content a:hover {background-color: rgb(34, 230, 164);}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(241, 241, 241);}
+
+.top-menu a{
+    color: rgb(34, 230, 164);
+    text-decoration: none;  
+    margin-right: 20px;
+}
+
+.dropbtn {
+    background-color: #58e9b400;
+    color: rgb(34, 230, 164);
+    padding: 16px;
+    font-size: 16px;
+    margin-top: 18.5px;
+    margin-right: 5px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    opacity: 90%;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+
+body{
+    margin-left: auto;
+    background-image: url(../img/toner2.jpg);
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+header{
+    height:80px;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 3px solid rgb(34, 230, 164);
+}
+
+.container{
+    position: relative;
+ }
+
+img.billede-1{
+    display: flex;
+    position: absolute;
+    opacity: 0.95;
+    margin-left: 12.5%;
+    margin-top: -20px;
+    width: 75%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px 70%;
+    background-color: white;
+    border-bottom: 3px solid rgb(38, 212, 154);
+}
+
+.logo-hvid{
+    display: flex;
+    z-index: 5;
+    justify-content: center;
+    margin: 20px;
+}
+
+.main-index{
+    width: 75%;
+    height:700px;
+    background-color: rgba(241, 241, 241, 0.466);
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 10px solid rgba(241, 241, 241, 0.384);
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.main-index h3{
+    color: rgb(44, 44, 44);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-index p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+}
+
+.links-venstre{
+    margin-top: 5%;
+    text-align: center;
+    width: 48%;
+    float: left;
+}
+
+.links-venstre a{
+    color: rgb(38, 212, 154);
+}
+
+.links-højre{
+    margin-top: 5%;
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+
+.links-højre a{
+    color: rgb(38, 212, 154);
+}
+
+.container-1{
+    position: relative;
+}
+ 
+.ophavsret{
+    display: flex;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 8%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 3%;
+}
+
+.container-2{
+    position: relative;
+ }
+
+img.ikke-igang{
+    display: flex;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 8%;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 50%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 3%;
+}
+    
+
+.links-venstre-2{
+    margin-top: 25%;
+    text-align: center;
+    width: 48%;
+    float: left;
+}
+
+.links-venstre-2 a{
+    color: rgb(38, 212, 154);
+}
+
+.links-højre-2{
+    margin-top: 25%;
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+
+.links-højre-2 a{
+    color: rgb(38, 212, 154);
+}
+
+.container-3{
+    position: relative;
+ }
+
+img.det-kan-jeg{
+    display: flex;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 35%;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 50%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 3%;
+}
+
+.container-4{
+    position: relative;
+ }
+
+img.ikke-igang-2{
+    display: flex;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 35%;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 50%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 3%;
+}
+    
+.main-om{
+    width: 75%;
+    height:750px;
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 10px solid rgb(241, 241, 241);
+    margin-top: 240px;
+    margin-bottom: 40px;
+}
+
+.intro-om{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.main-om p{
+    margin-top: 5%;
+}
+
+.container-5{
+    position: relative;
+ }
+
+img.om-mig{
+    display: flex;
+    position: absolute;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 35%;
+    background-color: white;
+    border-bottom: 3px solid rgb(38, 212, 154);}
+
+
+img.mig-igen{
+    display: flex;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 5%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 30%;
+    border-radius: 50%;}
+
+.under-overskrift1{
+    text-align: right;
+    float: right;
+    font-size: 13px;
+    margin-right: 10px;
+    color:seagreen;}
+
+.main-om h4{
+    margin-left: 28%;
+    color: rgb(34, 230, 164);
+    margin-bottom: -30px;
+    margin-top: 10%;
+}
+
+.lidt-om-mig{
+    text-align: center;
+    width: 45%;
+    float: left;
+    margin-left: 10%;
+}
+
+.talenter{
+    text-align: left;
+    float: right;
+    width: 30%;
+    margin-top: 0%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: rgb(65, 65, 65);
+}
+
+.kompetencer{
+    text-align: left;
+    float: right;
+    width: 30%;
+    margin-right: 1%;
+    color: rgb(34, 230, 164);
+}
+
+img.kompetencer-img{
+    margin-top: 10px;
+}
+
+img.tegning1{
+    display: flex;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 18.3%;
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 3%;
+}
+
+img.tegning2{
+    display: flex;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 18.3%;
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 3%;
+}
+
+img.tegning3{
+    display: flex;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 18.3%;
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 3%;
+}
+
+img.tegning4{
+    display: flex;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 22%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 3%;
+}
+
+footer{
+    display: flex;
+    width: 75%;
+    height: 100px;
+    background-color: rgb(34, 230, 164);
+    margin: 0 auto;
+    color: white;
+    text-align: left;
+    line-height: 17px;
+}
+
+.foot-container{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+footer p{
+    font-size: 12px;
+}
+img.bund-logo{
+    display: flex;
+    justify-content: right;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 1px;
+    width: 100px;
+    height: 90px;
+    object-fit:scale-down;
+    object-position: 0px 0%;
+}
+
+.container-cykel-bro{
+    position: relative;
+}
+
+img.cykel-bro{
+    display: flex;
+    position: absolute;
+    opacity: 0.95;
+    margin-left: 12.5%;
+    margin-top: 0px;
+    width: 75%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 60%;
+    background-color: white;
+    border-bottom: 3px solid rgb(38, 212, 154);
+
+}
+
+.logo-hvid2{
+    display: flex;
+    z-index: 5;
+    justify-content: center;
+}
+
+.main-PS{
+    width: 75%;
+    height:1500px;
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 10px solid rgb(241, 241, 241);
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.main-PS h2{
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-top: 10px;
+}
+
+.under-overskrift{
+    text-align: right;
+    font-size: 13px;
+    margin-right: 10px;
+    color:seagreen;
+}
+
+img.cykel-bro1 {
+    display: flex;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: -2.15%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    background-color: white;
+    border: 3px solid rgb(34, 230, 164);}
+
+img.gå-i-bro {
+    display: flex;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: -17%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    background-color: white;
+    border: 3px solid rgb(34, 230, 164);}
+
+img.bro {
+    display: flex;
+    position: absolute;
+    margin-left: 17.5%;
+    margin-top: -17%;
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0px 25%;
+    background-color: white;
+    border: 3px solid rgb(34, 230, 164);}
+
+img.bro-PS {
+    display: flex;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px 25%;
+    background-color: white;
+    border: 3px solid rgb(34, 230, 164);
+}
+
+.første-tekst{
+    margin-top: 17%;
+    margin-left: 50%;
+    width: 45%;
+}
+
+.anden-tekst{
+    margin-top: 25%;
+    margin-left: 5%;
+    width: 45%;
+}
+
+img.kim{
+    display: flex;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 7%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: -70px 0%;
+    background-color: white;
+    border: 3px solid rgb(34, 230, 164);}
+
+.tredje-tekst{
+    margin-top: 20%;
+    margin-left: 50%;
+    width: 45%;
+}
+
+.fjerde-tekst{
+    width: 45%;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
+img.leg-i-PS{
+    display: flex;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 5%;
+    width: 480px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 0%;
+    background-color: white;
+    border: 3px solid rgb(34, 230, 164);}
+
+.main-html{
+    width: 75%;
+    height:1500px;
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 10px solid rgb(241, 241, 241);
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+img.cover-billede2{
+    display: flex;
+    position: absolute;
+    opacity: 0.95;
+    margin-left: 12.5%;
+    margin-top: -20px;
+    width: 75%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px 70%;
+    background-color: white;
+    border-bottom: 3px solid rgb(38, 212, 154);
+}
+
+.main-html h2{
+    text-align: center;
+}
+
+.første-tekst1{
+    margin-top: 20%;
+    margin-left: 50%;
+    width: 45%;
+}
+
+.container-kode{
+    position: relative;
+}
+
+img.kode-til-coverbillede{
+    display: flex;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 40px;
+    width: 800px;
+    height: 90px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    border: 3px solid rgb(38, 212, 154);
+}
+
+img.css{
+    display: flex;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -7%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    border: 3px solid rgb(38, 212, 154);
+}
+
+.anden-tekst2{
+    margin-top: 13%;
+    margin-left: 50%;
+    width: 45%;
+}
+
+img.outcome{
+    display: flex;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 6%;
+    width: 480px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 0% 0px;
+    border: 3px solid rgb(38, 212, 154);
+}
+
+.tredje-tekst3{
+    margin-top: 18%;
+    margin-left: 5%;
+    width: 40%;
+}
+
+.main-første-semester{
+    width: 75%;
+    height:900px;
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 10px solid rgb(241, 241, 241);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-første-semester h2{
+    text-align: center;
+    color: rgb(41, 41, 41);
+    width: 100%;
+    height: 30px;
+    background-color: rgba(34, 230, 165, 0.377);
+}
+
+.main-første-semester a{
+    margin-left: 20px;
+}
+
+.menu-første-semester{
+    width: 100%;
+    height: 20px;
+    background-color: rgba(34, 230, 165, 0.377);
+}
+
+.container-PS{
+    position: relative;
+ }
+
+img.PS{
+    display: flex;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 5%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: -50px 0%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 50%;
+}
+
+.container-html{
+    position: relative;
+ }
+
+img.html{
+    display: flex;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 3%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: -0px 0%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 50%;
+}
+
+.container-projekt1{
+    position: relative;
+ }
+
+img.projekt1{
+    display: flex;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 40%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 50%;
+}
+
+.container-projekt2{
+    position: relative;
+ }
+
+img.projekt2{
+    display: flex;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 38%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 0%;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 50%;
+}
+
+.overskrift-venstre1{
+    margin-top: -44%;
+    text-align: center;
+    width: 25%;
+    margin-left: 20.5%;
+    float: left;
+}
+
+.overskrift-venstre1 a{
+    color: rgb(38, 212, 154);
+}
+
+.overskrift-venstre2{
+    margin-top: -15%;
+    text-align: center;
+    margin-left: 8%;
+    width: 50%;
+    float: left;
+}
+
+.overskrift-venstre2 a{
+    color: rgb(38, 212, 154);
+}
+
+.overskrift-højre1{
+    margin-top: -44%;
+    text-align: center;
+    margin-right: 20%;
+    width: 25%;
+    float: right;
+}
+
+.overskrift-højre1 a{
+    color: rgb(38, 212, 154);
+}
+
+.overskrift-højre2{
+    margin-top: -15%;
+    text-align: center;
+    margin-right: 7.5%;
+    width: 50%;
+    float: right;
+}
+
+.overskrift-højre2 a{
+    color: rgb(38, 212, 154);
+}
+
+.referencer{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 75%;
+    height: 430px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.main-kontakt{
+    width: 75%;
+    margin: 0 auto;
+    height: 450px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    font-size: 17px;
+}
+.main-kontakt h2{
+    margin: 0 auto;
+    color: rgb(34, 230, 164);
+}
+
+.alle-kontakt{
+    text-align: left;
+    width: 60%;
+    float: right;
+    margin-top: 20px;
+}
+
+.alle-kontakt p, a{
+    text-decoration: none;
+    color: black;
+}
+
+.alle-følg-mig{
+    margin-left: 80px;
+    margin-top: 20px;
+    text-align: left;
+    width: 30%;
+    float: left;
+}
+
+.alle-følg-mig p, a{
+    text-decoration: none;
+    color: black;
+}
+
+img.profil{
+    display: flex;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 25px;
+    object-position: right;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: -20px 70%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+img.facebook{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-left: 27%;
+}
+
+img.instagram{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 11.5%;
+    margin-left: 3%;
+}
+
+img.snapchat{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+img.phone{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15.8%;
+    margin-left: 27.2%;
+}
+
+img.mail{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 11.5%;
+    margin-left: 27%;
+}
+
+img.profile_icon{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25.8%;
+    margin-left: 53.5%;
+}
+
+.det-mig{
+    position: absolute;
+    display: flex;
+    text-align: right;
+    margin-left: 56%;
+    margin-top: 25%;
+    color: rgb(34, 230, 164);
+}
+
+.lær-mig-at-kende{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-top: 29%;
+    color: seagreen;
+    margin-left: 3%
+}
+
+.se-første-semester{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-top: -30%;
+    color: seagreen;
+    margin-left: 45%
+}
+
+.andet-semester{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 75%;
+    height: 430px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.tredje-semester{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 75%;
+    height: 430px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 20px;
+    line-height: 50px;
+}
